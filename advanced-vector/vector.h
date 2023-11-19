@@ -220,7 +220,7 @@
     typename Vector<T>::const_iterator Vector<T>::cend() const noexcept {
         return data_.GetAddress() + size_;
     }
-    // исправил недочеты и ошибки
+
     template <typename T>
     Vector<T>::Vector(size_t size)
             : data_(size)
