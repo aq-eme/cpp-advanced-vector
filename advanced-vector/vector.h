@@ -397,3 +397,5 @@
         iterator result = new (data_ + (pos - begin())) T(std::forward<Args>(args)...);
         return result;
     }
+
+
